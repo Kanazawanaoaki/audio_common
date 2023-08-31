@@ -1,6 +1,6 @@
 <launch>
-  <!-- arecord -l will show available input devices, use the car number as
-      the first number and the subdevice number as the second in a string
+  <!-- arecord -l will show available input devices, use the card number as
+      the first number and the device number as the second in a string
       like hw:1,0 -->
   <arg name="dst" default="alsasink"/>
   <arg name="device" default=""/>
